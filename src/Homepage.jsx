@@ -23,8 +23,9 @@ export const Homepage=()=> {
       <h2>Say Yes </h2> 
       <h3>To Your Good Health  :)</h3>
       <p>At our medical center, we offer a wide range of services to meet the healthcare needs of our patients. Our team of experienced doctors and nurses are dedicated to providing the highest quality of care in a welcoming and comfortable environment. From routine check-ups and vaccinations to more specialized treatments and surgeries, we have the expertise and resources to address a variety of medical concerns.</p>
-      <a href="http://localhost:3000/Product" className='btn btn-light'>Healthify
-      </a>
+      <Link to="/Product" className="btn btn-light ">
+                Healthify
+              </Link>
       {"    "}{"    "}
       <Link to="/Bloodbank" className="btn btn-light ">
                 Bloodbank
